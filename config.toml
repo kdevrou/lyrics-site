@@ -1,3 +1,46 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = ""
+DefaultContentLanguage = "id"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+    mainSections = ["song","songs"]
+    hideAuthor = true
+#    since = 2022
+    dateFormat = "January 2, 2006"
+    commit = false
+    rss = true
+    comments = true
+    readingTime = false
+    wordCount = false
+    useHLJS = true
+    socialShare = true
+    delayDisqus = true
+    showRelatedPosts = true
+
+[languages]
+    [languages.id]
+        languageName = "Bahasa Indonesia"
+        contentDir = "content/id"
+        title = "Lirik"
+        subtitle = "Lirik lagu inggris terjemahan"
+        [[languages.id.menu.main]]
+            name = "Lago"
+            url = ""
+            weight = 1
+
+    [languages.en]
+        languageName = "English"
+        contentDir = "content/en"
+        title = "Lyrics"
+        subtitle = "English song lyrics translated"
+        [[languages.en.menu.main]]
+            name = "Songs"
+            url = ""
+            weight = 2
