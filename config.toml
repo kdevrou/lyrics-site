@@ -31,9 +31,13 @@ pygmentsCodefencesGuessSyntax = true
         title = "Lirik"
         subtitle = "Lirik lagu inggris terjemahan"
         [[languages.id.menu.main]]
-            name = "Lago"
+            name = "Lagu"
             url = ""
             weight = 1
+        [[languages.id.menu.main]]
+            name = "Tentang"
+            url = "page/tentang"
+            weight = 2
 
     [languages.en]
         languageName = "English"
@@ -43,4 +47,8 @@ pygmentsCodefencesGuessSyntax = true
         [[languages.en.menu.main]]
             name = "Songs"
             url = ""
+            weight = 1
+        [[languages.en.menu.main]]
+            name = "About"
+            url = "page/about"
             weight = 2
