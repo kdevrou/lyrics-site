@@ -1,6 +1,7 @@
 baseURL = "/"
 DefaultContentLanguage = "id"
 theme = "beautifulhugo"
+contentDir = "content"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
@@ -27,7 +28,6 @@ pygmentsCodefencesGuessSyntax = true
 [languages]
     [languages.id]
         languageName = "Bahasa Indonesia"
-        contentDir = "content/id"
         title = "Lirik"
         subtitle = "Lirik lagu inggris terjemahan"
         [[languages.id.menu.main]]
@@ -41,7 +41,6 @@ pygmentsCodefencesGuessSyntax = true
 
     [languages.en]
         languageName = "English"
-        contentDir = "content/en"
         title = "Lyrics"
         subtitle = "English song lyrics translated"
         [[languages.en.menu.main]]

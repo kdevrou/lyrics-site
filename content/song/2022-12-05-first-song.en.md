@@ -2,7 +2,10 @@
 title: I have five balloons
 date: 2022-12-05
 tags: ["test song"]
+draft: false
 ---
+
+{{< youtube SyEe5eR2AzU >}}
 
 I have five balloons\
 Many colors I had them\
