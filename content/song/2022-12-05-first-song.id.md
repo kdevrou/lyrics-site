@@ -1,8 +1,9 @@
 ---
 title: Balonku ada lima
 date: 2022-12-05
-tags: ["test song"]
-draft: false
+tags:
+  - test song
+draft: true
 ---
 
 {{< youtube SyEe5eR2AzU >}}
