@@ -1,4 +1,4 @@
-baseURL = "netlify.app"
+baseURL = "/"
 DefaultContentLanguage = "id"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
