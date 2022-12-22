@@ -3,7 +3,7 @@ title: My Defender by Jeremy Camp
 date: 2022-12-22T23:13:33.399Z
 tags:
   - Jeremy
-draft: true
+draft: false
 ---
 {{< youtube tZ9yEiZApt0 >}}
 
