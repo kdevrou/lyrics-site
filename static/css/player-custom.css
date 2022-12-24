@@ -1,4 +1,4 @@
-div:has(iframe) {
+article:not(.post-preview) div:has(iframe) {
     position: sticky !important;
     top: 50px;
 }
