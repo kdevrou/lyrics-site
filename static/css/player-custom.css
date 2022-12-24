@@ -1,0 +1,4 @@
+div:has(iframe) {
+    position: sticky !important;
+    top: 50px;
+}
