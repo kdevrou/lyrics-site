@@ -12,7 +12,7 @@ CMS.registerEditorComponent({
             widget: "markdown"
         },
     ],
-    pattern: new RegExp(`^{{< text-color ([a-zA-Z0-9]+) >}}("[a-zA-Z\\s0-9:!@#\$%\/\^\&*\)\(+=._-]+"){{< /text-color >}}`),
+    pattern: new RegExp(`^{{< text-color color="([a-zA-Z0-9]+)" >}}([\s\S]*?(?=\n.*?{|$))`),
     fromBlock: function(match) {
         return {
             color: match[1],
@@ -20,9 +20,9 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function(obj) {
-        return `{{< text-color ${obj.color} >}}${obj.text}{{< /text-color >}}`;
+        return `{{< text-color color="${obj.color}" >}}${obj.text}{{< /text-color >}}`;
     },
     toPreview: function(obj) {
-        return `{{< text-color ${obj.color} >}}${obj.text}{{< /text-color >}}`;
+        return `{{< text-color color="${obj.color}" >}}${obj.text}{{< /text-color >}}`;
     },
 });
