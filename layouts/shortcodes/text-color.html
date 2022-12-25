@@ -1,0 +1,8 @@
+{{ $color :=  (.Get "color") | default "#0077b826" }}
+
+
+<div>
+  <div style="color:{{ $color }};">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
